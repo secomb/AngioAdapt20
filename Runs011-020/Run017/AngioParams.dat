@@ -1,0 +1,24 @@
+0.25 	smax_flow, prob of sprout formation = smax*thresh*segment_length*timestep, 0.002
+0.25	smax_noflow, 0.002
+160			nsprmax, maximum number of new sprouts per time step (160)
+333.		Vmax, um/day rate of growth ~20 (50.)
+5.			min_length, if length < min_length, no growth
+0.825		thresh, threshold concentration for sprout formation, ~1 nM. (0.8)
+1.0			GFlow - low diff. contribution to GF angiogenesis criterion - added Feb. 2020
+0.05		variance, gives the amount of wiggle in direction of new growth (0.1 default)(0.4)
+8.			new_diam, diameter_of_new_vessels (10.)
+11.			increment, amount seg increments by then checks for intercept. Should be > tolerance_1 to avoid spurious intercepts
+10.			tolerance_1, if closest point on another seg within this distance=>intercept at point (10)
+10.			tolerance_2, if increments to within this distance of new_point, stops incrementing (10)
+1.			threshn, thresh function (GF-thresh)^n/(thresh50^n+(GF-thresh)^n)
+0.5			thresh50
+100.	5.		kgGF, kgVAF, strength of responses to gradients in GF and VAF
+1.			kv, strength of signal from cone detector (10.)
+0.15			lambdatension, threshold for movement under tension (0.05)
+80.			tensionrate, rate of node movement under tension (1.)
+314159		seed (seed = 1 uses current time) (10111)(754323)(654321)(101010)(314159)
+25.			r0, cutoff radius for cone detector, um (50)(default: 100)	decreased for VAF version
+1.047		theta0, cutoff angle for cone detector (default: pi/3 = 1.047)(2/3pi = 2.094)
+0 50. 0.5	dohexflag, ahex, khex: include hexagonal mesh guidance, side of hexagon, strength of signal from hexagon
+1			angio3d, 0 for 2D angiogenesis, 1 for 3D angiogenesis
+1			hexperiodic - hexagonal periodic boundary conditions in x-y plane (currently 3D only)

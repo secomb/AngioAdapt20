@@ -1,0 +1,23 @@
+Adaptation parameters for 3D brain angiogenesis
+201			imainmax, number of adaptation/angiogenesis time steps
+0.05		timestep1 (delta t),  time step, day
+1			adaptd, adapt diameters (1 = yes, 2 = grow only)
+1			inftrans, information transfer (1 = yes)
+1			eliminate, if vessel diameter below threshold (1 = yes)
+1			angio, angiogenesis (1 = yes)
+1			tensionm, move nodes in response to tension imbalance (1 = yes)
+100. -86. 36. 5.	adaptpar for pressure-shear relationship (updated 2020)
+18.			km1 (k_m), metabolic sensitivity (18)
+1.			Sumax (S_c^max), max. upstream response relative to downstream
+200.  500.	Sd50 (C_GF50^v), Su50 (J_c50), 1/2-max value for downstream and upstream responses, um 
+1.8		ks1 (k_s), shrinking tendency (1.8)
+0.0			ranks1, randomization of ks, not used
+0.01		tauref1 (tau_ref), reference shear stress, dyn/cm2
+0.1			Qref1 (Q_ref), reference flow for metabolic signal, nl/min
+17300.		L1 (L_c), conducted response decay length, um
+0.			extlength1in, length of vessel connected to inflows, not used, um
+0.			extlength1out, length of vessel connected to outflows, not used, um
+3.			diamthresh, um
+1.			eqtime (T), adaptation time scale, day
+7			outbounmethod, method for computing tissue domain
+10.			qinsum_min, minimum flow for running greens, nl/min
