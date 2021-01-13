@@ -1,6 +1,0 @@
-  2                 number of contour planes
-  -240.  -240.  300.  1   -240.  150.  0.  1         origin of plane slice for PO2 output, subdivision of segments for contours
-  540.  -240.  300.  20  540.  150.  0.  20    corner of plane slice, number of points - 95 for high resolution
-  -240.  540.  300.  20  -240.  150.  500.  20     corner of plane slice, number of points - 95 for high resolution
--20. 10. 13			Solute 1: minimum contour level, increment, number of levels - overridden in ContourO2GF   
-  1. 2.   2			Solute 2: minimum contour level, increment, number of levels - overridden in ContourO2GF 
