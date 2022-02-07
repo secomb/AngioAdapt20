@@ -1,8 +1,8 @@
 # AngioAdapt20: Simulation of angiogenesis, remodeling and pruning in three dimensions
 
-See Secomb, T.W., Alberding, J.P., Hsu, R., Dewhirst, M.W. and Pries, A.R. Angiogenesis: an adaptive biological patterning problem. PLoS Computational Biology 9:e1002983. doi:10.1371/journal.pcbi.1002983 (2013)  
+See Alberding JP, Secomb TW. Simulation of angiogenesis in three dimensions: Application to cerebral cortex. PLoS Comput Biol. 17:e1009164 (2021). doi: 10.1371/journal.pcbi.1009164.
 
-See also manuscript "Simulation of angiogenesis in three dimensions: application to cerebral cortex" (in submission)
+See also Secomb, T.W., Alberding, J.P., Hsu, R., Dewhirst, M.W. and Pries, A.R. Angiogenesis: an adaptive biological patterning problem. PLoS Computational Biology 9:e1002983. (2013) doi:10.1371/journal.pcbi.1002983
 
 See https://github.com/secomb/FlowEstimateV1 for more details on calculation of blood flow in the network.
 
